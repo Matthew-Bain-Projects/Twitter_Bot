@@ -1,6 +1,6 @@
 # Twitter_Bot
 
-Purpose: Tweet Updates to Projects I Am working on
+Purpose: Tweet Updates to Projects I Am Working On
 
 How it Works:
 
