@@ -1,10 +1,11 @@
 import requests
 import tweepy
 
-consumer_key = 0
-consumer_secret = 0
-access_token = 0
-access_token_secret = 0
+consumer_key =
+consumer_secret =
+access_token = 
+access_token_secret =
+ 
 
 # Twitter requires oAuth2 to access its API:
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -15,4 +16,4 @@ def tweet_something(tweet):
     status = api.update_status(tweet)
     print(status.id)
 
-
+tweet_something("Hello World!")
